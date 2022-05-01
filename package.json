@@ -4,7 +4,7 @@
   "description": "Portfolio Website using tailwind css",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rezafikkri/Portfolio-Website/issues"
   },
-  "homepage": "https://github.com/rezafikkri/Portfolio-Website#readme"
+  "homepage": "https://github.com/rezafikkri/Portfolio-Website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
 }
