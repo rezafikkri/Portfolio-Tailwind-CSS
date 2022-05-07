@@ -1,2 +1,2 @@
 # Portfolio-Tailwind
-Portfolio Website using tailwind css
+Portfolio Website using Tailwind CSS 3
